@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+body{
+    margin: 10px;
+    border: 3px solid black;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sale{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -30px;
+    padding: 5px;
+}
+
+.sale p{
+    text-align: center;
+    color: white;
+}
+
+.heading{
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.desc p{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.desc h4{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.desc a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.product h2{
+    padding-top: 10px;
+}
+
+.product ul{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.product li{
+    padding-top: 10px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.color-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.color1{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+.color2{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.color3{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+.color4{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+.flexbox{
+    display: flex;
+}
+.flexbox2{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.freeship{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.freeship h4{
+    text-align: center;
+}
